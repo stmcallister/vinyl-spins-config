@@ -8,7 +8,7 @@ metadata:
 spec:
   ingressClassName: ngrok
   rules:
-    - host: vinyl-spins.com
+    - host: www.vinyl-spins.com
       http:
         paths:
           - path: /api
