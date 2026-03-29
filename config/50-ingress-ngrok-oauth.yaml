@@ -3,8 +3,6 @@ kind: Ingress
 metadata:
   name: vinyl-spins
   namespace: vinyl-spins
-  annotations:
-    k8s.ngrok.com/traffic-policy: google-oauth
 spec:
   ingressClassName: ngrok
   rules:
