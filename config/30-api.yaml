@@ -49,6 +49,8 @@ spec:
             - containerPort: 8080
               name: http
           env:
+            - name: ADMIN_DISCOGS_USERNAMES
+              value: "stmcallister"
             - name: PORT
               value: "8080"
             - name: DATABASE_URL
